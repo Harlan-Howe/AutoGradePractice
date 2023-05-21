@@ -15,6 +15,9 @@ class AGTester:
     def __str__(self):
         return self.__repr__()
 
+    def setName(self, name):
+        self.myName = name
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     tester = AGTester("Harlan")
